@@ -2,23 +2,95 @@
 
 <html>
   <head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="style_1.css">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width; initial-scale=1">
-  <title>Форма для входа</title>
-  <style>
-  <style>
-    
-  </style>
-</head>
-<body>
-  <form action="/somesite">
-    <h2 class="hello">Зарегистрируйтесь, чтобы зайти на сайт</h2>
-     <p><input name="login" placeholder="Login" class="form-login"</p>
-     <p><input name="password" placeholder="Password" class="form-pass"</p>
-     <p class="remember"><input type="checkbox" checked name="remember"> Запомнить меня</p>
-     <p><button>Войти</button></p>
-  </form>
-  
-</body>
+    <meta charset="utf-8">
+    <title>My CV Page</title>
+  </head>
+        <main class="main">
+
+            <header class="header">
+                <div class="name"> <h1 class="name2">Balashova Kristina</h1></div>
+                <hr class="colored-line_1"> 
+                <div class="prof"><p class="prof2">Junior Frontend Developer</p> </div>
+              <div class="photo" ><img class="round-photo" src="my-photo.jpg"  alt="cat photo"> </div>
+            </header>
+            
+              <nav class="nav"><a href="#inf" class="nav__item">Contact information</a>   <a href="#aboutme" class="nav__item">About Me</a>  
+                <a href="#skills" class="nav__item" >Skills and Proficiency</a>   <a href="#code_name" class="nav__item">Code example</a>
+                <a href="#education_name" class="nav__item">Education</a>   <a href="#lang" class="nav__item">Languages</a>
+              </nav>
+            
+            <div class="container" id="aboutme">
+              <h2>About Me</h2>
+          
+              <p class="aboutme_discription">I was working as a digital marketing specialist for the last three years. <br> I have experience in big companies, remote work and freelance. <br>
+                The remote and freelance work teached me to be self organized, learn quick and good communication skills. <br> I’m very good with deadlines and a responsible person. <br>
+                
+                I decided to become a web-developer and am willing to learn and develop new skills.. 
+                </p>
+            </div>
+
+            <div class="container" id="skills">
+              <h2>Skills and Proficiency</h2>
+            
+              <ul class="skills-list">
+                <li>HTML5, CSS3</li>
+                <li>JavaScript Basics</li>
+                <li>Git, GitHub</li>
+                <li>Adobe Photoshop</li>
+                <li> Ads managers and analytics services: Facebook, VK, MyTarget, Yandex and Google
+                </li>
+              </ul>
+            </div>
+
+
+              <h2 class="code-name" id="code_name">Code example</h2>
+
+              <div class="code_card">
+              <code class="code-example">
+                function stopit() {<Br>
+                  if (blinking==true) {<Br>
+                   clearTimeout(ianID);<Br>
+                    document.forms[0].abutton.value =<Br>
+                     "Нажми для продолжения!";<Br>
+                    blinking = false;<Br>
+                  }
+              </code>
+              </div>
+
+            <div class="container">
+              <h2 id="education_name">I learn about web-development in:</h2>
+              
+              <ul class="container-list">
+                <li>FreecoderCamp</li>
+                <li>HTML Academy </li>
+                <li>RSS School (currently studying)</li>
+              </ul>  
+            </div>
+
+            <div class="container" id="lang">
+              <h2>Languages:</h2><br>
+              
+              <p class="lang">English level B1-B2, i am good listening and reading, i read books in english and watch movies. Able to communicate, but have some insecurities during not having  everyday practice.
+ 
+                During my career i used to work with international teams from France and Dania and communicate inn english in email.
+                </p>
+            </div>
+
+            <div class="information" id="inf">
+              <h2>Contact information</h2>
+            </div>
+                  <ul class="information_list">
+                  <p class="phone">Phone: +79991410744</p>
+                  <p class="email">E-mail: neverberrie@icloud.com</p>
+                  </ul>
+            
+        </main>
+      
+        <footer class="footer"> 
+             <a href="https://github.com/KristinaBalashova"><img class="github-logo" src="GitHub-Emblem.png" alt="github-logo"></a>
+              <p class="footer_year">2021</p>
+              <a href="https://rs.school/js/"><img class="rss-logo" src="rs_school_js.svg" alt="rss-logo"></a>
+        </footer>
 <html>
