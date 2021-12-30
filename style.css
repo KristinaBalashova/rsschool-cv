@@ -1,34 +1,171 @@
-.body {
-    background:#FFD373;
-  }
-  .hello {
-    color:#015965;
-    font style: Arial;
+.main {
+    font-family: arial;
     text-align: center;
-  }
-  .form {
-  background: #fff;
-  width: 300px;
-  height: 500px;
-  padding: 30px 50px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  }
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFD373;
+    width: 80%;
+    margin: 0 auto;
+}
 
-  .form-login, form-pass {
-  width: 100%;
-  padding: 5px;
-  box-sizing: border-box;
-  border: 1px solid #dddddd;
- }
+.header {
+    width: 100%;
+    background: linear-gradient(180deg, rgba(31,107,117,1) 80%, rgba(255, 211, 115, 1) 80%);  
+}
 
- .remember {
-   text-align: left;
-   font-style: bold;
- }
- button {
-  background: #A60C00	;
-  width: 100%;
-  border: none;
-  color: #fff;
-  padding: 10px;
- }
+.container {
+    width: 90%;
+    text-align: left;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #A60C00;
+    text-align: center;
+}
+.name  {
+    margin: auto;
+    padding-top: 50px;
+    font-family: Arial;
+    color: #FFC340;
+    font-size: 28px;
+}
+
+.colored-line_1 {
+  height: 5px;
+  width: 300px;  
+}
+.prof {
+    margin: auto;
+    font-family: Arial;
+    color: white;
+    font-size: 24px;
+}
+
+.photo {
+    display: block;
+    text-align: center;
+}
+
+.round-photo {
+    border-radius: 100px; 
+    height: 200px;
+    width: 200px;
+    border: 10px solid #1E6D74	;
+
+}
+.nav {
+    height: 50px;
+    box-shadow: 5px 5px 5px 5px #FF7D73;
+    width: 90%;
+    padding-top: 25px;
+    margin-top: 45px;
+}
+
+.nav__item {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #015965;
+    font-size: 20px;
+}
+
+.nav__item:hover {
+    color: #A60C00;
+}
+
+
+.nav__item:last-child {
+    margin-right: 0;
+}
+
+.colored-line_2 {
+    height: 5px;
+    width: 200px;
+    background-color: #A60C00;
+}
+.aboutme_discription {
+    text-align: left;
+    font-size: 20px;
+}
+
+.information__list {
+    text-align: left;
+    font-size: 20px;
+}
+.skills {
+    width: 700px;
+    font-size: 20px;
+}
+
+.skills-list {
+    font-size: 20px;
+} 
+
+.container-list {
+    font-size: 20px;
+} 
+
+.code_card {
+    background-image: url(text-doc.png);
+    background-repeat: no-repeat;
+    font-size: 20px;
+    width: 340px;
+    height: 200px;
+    padding-top: 60px;
+    margin-top: 50px;
+}
+.code-example {
+    font-size: 10px;
+    text-align: left;
+}
+/*.information {
+    margin-bottom: 30px;
+    padding: 45px 45px 70px 45px;
+    height: 50px;
+    margin: 20px 20px;
+}*/
+.lang {
+    font-size: 20px;
+} 
+
+.information_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+    font-size: 20px;
+    width: 80%;
+}
+
+
+.footer {
+    background-color: #A60C00;
+    height: 10%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.rss-logo { 
+    height: 100px;
+    width: 100px;
+}
+
+.github-logo { 
+    height: 70px;
+    width: 100px;
+    } 
+
+
+.footer_year {
+    color: black;
+    font-size: 16px;
+    font-family: Arial;
+    font-style: bold;
+}
+
